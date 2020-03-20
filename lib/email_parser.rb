@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-  def method_name
+  def initialize()
 
   end
 
