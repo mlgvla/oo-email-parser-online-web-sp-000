@@ -11,6 +11,6 @@ class EmailAddressParser
   end
 
   def parse
-    @email_addresses.split(/[,\s]+/]).collect {|s| s.strip}
+    @email_addresses.split(/[,\s]+/).collect {|s| s.strip}
   end
 end
